@@ -137,6 +137,8 @@ img {
     background-color: var(--background-hero);
     text-align: center;
     padding: 188px 0;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .hero-text {
@@ -165,7 +167,7 @@ img {
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background: var(--pressed-state);
+    background-color: var(--pressed-state);
 }
 
 .visually-hidden {
@@ -327,8 +329,7 @@ img {
 
 .customers-list-link:hover,
 .customers-list-link:focus {
-    border: 1px solid var(--pressed-state);
-    border-radius: 4px;
+    border-color: var(--pressed-state);
 }
 
 .customers-icon {
@@ -409,7 +410,7 @@ img {
 }
 
 .btn-filter {
-    background: var(--light);
+    background-color: var(--light);
     border: 1px solid var(--accent);
     border-radius: 4px;
     font-family: inherit;
@@ -425,18 +426,18 @@ img {
 .btn-filter:hover,
 .btn-filter:focus {
     color: #FFFFFF;
-    background: var(--pressed-state);
+    background-color: var(--pressed-state);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-color: transparent;
 }
 
 .filter-list-link {
     display: block;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .filter-list-link:hover,
 .filter-list-link:focus {
-    border: 0.5px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
